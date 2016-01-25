@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width initial-scale=1">
+
+<meta property="og:title" content="Cròniques Linux">
+<title>Cròniques Linux</title>
+<meta property="og:description" content="un blog sobre linux i més">
+<meta property="og:url" content="http://croniqueslinux.github.io/">
+<meta property="og:site_name" content="Cròniques Linux">
+<meta property="og:locale" content="ca_ES">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@manelsales">
+<meta name="twitter:creator" content="@manelsales">
+<meta name="twitter:title" content="Cròniques Linux">
+<meta name="twitter:description" content="un blog sobre linux i més">
+<meta name="twitter:url" content="http://croniqueslinux.github.io/">
+
+<meta name="keywords" content="Linux, GNU, Linkat">
+
+<link rel="icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="canonical" href="http://croniqueslinux.github.io/">
+<link rel="alternate" type="application/atom+xml" title="Cròniques Linux" href="http://croniqueslinux.github.io/feed.xml" />
+
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+<div class="container">
+
+  <header class="site-header">
+
+  <div class="wrapper">
+
+    <h1 class="site-title"><a href="/">Cròniques Linux</a></h1>
+    <h3 class="site-meta">històries d'un nyu i un pingüí</h3>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+        
+        
+        <a class="page-link" href="/">Inici</a>
+        
+        
+        
+        <a class="page-link" href="/about/">Sobre mi</a>
+        
+        
+        
+        <a class="page-link" href="/archives/">Arxivat</a>
+        
+        
+        
+        <a class="page-link" href="/categories/">Categories</a>
+        
+        
+        
+        <a class="page-link" href="/tags/">Etiquetes</a>
+        
+        
+        
+        <a class="page-link" href="/guestbook/">Guestbook</a>
+        
+        
+        
+        <a class="page-link" href="/feed.xml">Subscribe</a>
+        
+        
+        
+        
+        
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    
+
+  <div class="page-content col-sm-8">
+    <div class="home">
+  <div class="post" itemscope itemtype="http://schema.org/BlogPosting" >
+    
+    
+  
+    <header class="post-header">
+      <h1 itemprop="name" class="post-title">
+        <a itemprop="url" class="post-link" href="/markdown,/editor/2016/01/23/editor-utext.html">Editor uText</a>
+      </h1>
+      <meta itemprop="keywords" content="markdown" />
+      <p class="post-meta">
+      Categories:
+      
+      <a href="/categories/#markdown,">markdown,</a>
+      
+      <a href="/categories/#editor">editor</a>
+      
+      
+      | Etiquetat:
+      
+      <a href="/tags/#markdown" title="markdown">markdown </a>
+      
+      
+      <time itemprop="datePublished" datetime="2016-01-23">
+      | data: Jan 23, 2016
+      </time>
+      </p>
+    </header>
+
+    <article class="post-content" itemprop="articleBody">
+      <h1 id="editor-utext">Editor uText</h1>
+<p>És un editor senzill de <a href="https://ca.wikipedia.org/wiki/Markdown">markdown</a>. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l’edició amb la lectura i escriptura.</p>
+
+<p>Podem trobar molts editors com ara ReTex, Retext, MdCharm, UberWriter, Springseed, Remarkable, CuteMarkEd, Haroopad,  i n’hi ha en línia com <a href="https://stackedit.io/editor">StackEdit</a>.<br />
+En el meu cas, normalment uso <strong>Emacs</strong> amb el <a href="http://jblevins.org/projects/markdown-mode/">mode-markdown</a>, però aquest cop m’he interessat per un que he trobat molt interessant, per la seva senzillesa <strong>uText</strong>.</p>
+
+<p>Amb aquest editor <a href="">uText</a> podem prendre notes i usar-les en blogs, així com exportar-ho a Pdf, odt, latex, html, …</p>
+
+<h2 id="installaci">instal·lació</h2>
+<p>Per instal·lar aquest editor:<br />
+Terminal obert de la cursa, App Launcher, o a través de les tecles de drecera <code class="highlighter-rouge">Ctrl + Alt + T</code>. Quan s’obre, executar sota ordres per fer-ho des PPA del desenvolupador:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo add-apt-repository ppa:atareao/utext
+sudo apt-get update
+sudo apt-get install utext
+</code></pre>
+</div>
+
+<p>Si volem, també podem baixar-nos el <strong>deb</strong> directament de la pàgina <a href="http://ppa.launchpad.net/atareao/utext/ubuntu/pool/main/u/utext/">PPA</a>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code> http://ppa.launchpad.net/atareao/utext/ubuntu/pool/main/u/utext/utext_0.3.9-0extras15.04.0_all.deb
+</code></pre>
+</div>
+
+<p>Hi ha l’opció d’usar <em>l’apt</em> de l’ubuntu a partir de <a href="https://apps.ubuntu.com/cat/applications/utext/">la seva pàgina</a></p>
+
+<h2 id="en-catal">en català</h2>
+<p>Per defecte no me l’he trobat traduït al català, i mans a l’obra, n’he fet una traducció a <a href="https://translations.launchpad.net/utext/trunk/+pots/po/ca">la secció traduccions</a>. Seria un plaer que hi contribuïu i en feu una traducció més acurada.</p>
+
+<p>Finalment he anat a la pàgina de traduccions del <a href="https://translations.launchpad.net/utext/trunk/+pots/po/ca/+export">launchpad</a> i l’exportat en format <code class="highlighter-rouge">mo</code>.</p>
+
+<p>Un cop baixat cal crear una carpeta anomenada <code class="highlighter-rouge">ca_ES</code>, i a dins crear una altra carpeta anomenada <code class="highlighter-rouge">LG_MESSAGES</code>, i a dins copiar el fitxer <code class="highlighter-rouge">*.mo</code> que us heu baixat. Un cop ho tingueu cal desar-ho a la carpeta:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/opt/extras.ubuntu.com/utext/share/locale-langpack
+</code></pre>
+</div>
+
+<p>Ara cada vegada que inicieu el programa, podreu veure directament en català els menús.</p>
+
+    </article> <hr />
+    
+    
+  
+  </div>
+</div>
+
+    <section class="pager">
+  
+  
+</section>
+
+
+  </div>
+  <div class="col-sm-2">
+<div class="sidebar-module about">
+  <h4>Sobre mi</h4>
+  <img title="Norbux" src="/images/norbuks.png" alt="Norbux"/>
+  <span>Benvinguts al meu blog, articles antics a https://croniqueslinux.wordpress.com/</span>
+  <br />
+
+  
+
+  Em pots trobar a:
+
+  
+  <a href="mailto:norbux@gmx.com" title="mailto: norbux@gmx.com">Email</a> /
+  
+  
+  <a href="https://github.com/croniqueslinux" title="GithubID: croniqueslinux">Github</a> /
+  
+  
+  <a href="https://twitter.com/manelsales" title="TwitterID: manelsales">Twitter</a>
+  
+
+  
+
+</div>
+
+<div class="sidebar-module"> <!-- sidebar-module-inset">-->
+  <h4>Drets d'autoria</h4>
+
+  
+
+  <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+    <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png">
+  </a>
+  <br />
+  <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution-NonCommercial-ShareAlike</a>
+
+  
+
+</div>
+
+
+<div class="sidebar-module">
+  <h4>Articles recents</h4>
+  
+  <li>
+  <a href="/markdown,/editor/2016/01/23/editor-utext.html" title="Editor uText" rel="bookmark">Editor uText</a>
+  </li>
+  
+</div>
+
+
+<div class="sidebar-module">
+  <h4>Categories</h4>
+  
+  <li><a href="/categories/#markdown," title="markdown," rel="1">markdown, (1)</a></li>
+  
+  <li><a href="/categories/#editor" title="editor" rel="1">editor (1)</a></li>
+  
+</div>
+
+
+<div class="sidebar-module">
+  <h4>Etiquetes</h4>
+  
+    <a href="/tags/#markdown" title="markdown" rel="1">markdown</a> &nbsp;
+  
+</div>
+
+
+<div class="sidebar-module">
+  <h4>Llista</h4>
+  
+  <li><a href="https://croniqueslinux.github.io" title="Croniques">croniqueslinux</a></li>
+  
+  <li><a href="https://croniqueslinux.wordpress.com" title="Croniques Linux">blog</a></li>
+  
+</div>
+
+
+<div class="sidebar-module">
+  <h4>Arxius</h4>
+
+  
+  
+  
+  
+  
+  <li id="2016" > <a href="/archives/#2016">2016</a></li>
+  
+  
+
+</div>
+
+
+</div>
+
+
+
+  
+
+  <footer class="site-footer">
+
+  <p>Copyright &copy; <a href="/">Cròniques Linux</a></p>
+  <p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a> 
+  on 
+  
+  <a href="https://github.com/">Github</a>
+  
+  | Theme <a href="https://github.com/yulijia/freshman21/">Freshman21</a> Design by <a href="http://yulijia.net">Lijia Yu</a>  
+
+</footer>
+
+
+</div>
+
+</body>
+
+</html>

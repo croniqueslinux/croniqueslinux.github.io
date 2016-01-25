@@ -1,0 +1,73 @@
+### Site info:
+title: Cròniques Linux
+tagline: històries d'un nyu i un pingüí
+author: Norbux
+email: norbux@gmx.com
+description: "un blog sobre linux i més" 
+keywords: "Linux, GNU, Linkat"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://croniqueslinux.github.io" # the base hostname & protocol for your site
+locale: ca_ES
+
+### Personal info and site tools info:
+twitter_username: manelsales
+github_username:  croniqueslinux
+###disqus_shortname: xxxx
+favicon:     "/images/favicon.ico"
+aboutme: Benvinguts al meu blog, articles antics a https://croniqueslinux.wordpress.com/
+aboutme_photo: "/images/norbuks.png" # your photo.
+
+
+### Site setting:
+ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
+default_column: "two" 
+default_locale: "ca" # 
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"  
+      PostDate: "on "
+    ca:
+      Aboutme: "Sobre mi"
+      Archives: "Arxius"
+      Blogroll: "Llista"        
+      Categories: "Categories"    
+      Copyright_Notice: "Drets d'autoria"
+      Recent_Posts: "Articles recents"
+      Tags: "Etiquetes" 
+      Previous: "Articles antics"
+      Next: "Articles nous"
+      PostedInCategories: "Categories:"   
+      Taggedwith: "| Etiquetat:"
+      PostDate: "| data: "
+
+
+### llista de pàgines
+
+Blogroll:
+    - name: croniqueslinux
+      href: https://croniqueslinux.github.io
+      title: Croniques
+    - name: blog a wordpress
+      href: https://croniqueslinux.wordpress.com
+      title: Croniques Linux
+
+
+### Build settings
+markdown: kramdown
+highlighter: pygments
+kramdown:
+        input: GFM
+        syntax_highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
