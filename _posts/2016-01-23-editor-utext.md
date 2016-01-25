@@ -7,19 +7,18 @@ tags: markdown
 ---
 
 # Editor uText #
-<<<<<<< HEAD
-<img src=/images/utext.svg width=100 />
+
+![utext]({{ base.url }}/images/utext.png)
+
 És un editor senzill de [markdown](https://ca.wikipedia.org/wiki/Markdown). Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l'edició amb la lectura i escriptura.
-<img src=/images/md.jpg width=100 />
-=======
-![utext](http://images/utext.svg  "")
+
+![md]({{ base.url }}/images/md.jpg)
+
 És un editor senzill de [markdown](https://ca.wikipedia.org/wiki/Markdown). Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l'edició amb la lectura i escriptura.
-![md](http://images/md.jpg  "")
->>>>>>> 30b842f7904d487d3c3a041bf7e74f2d68a338ca
 Podem trobar molts editors com ara ReTex, Retext, MdCharm, UberWriter, Springseed, Remarkable, CuteMarkEd, Haroopad,  i n'hi ha en línia com [StackEdit](https://stackedit.io/editor).
 En el meu cas, normalment uso **Emacs** amb el [mode-markdown](http://jblevins.org/projects/markdown-mode/), però aquest cop m'he interessat per un que he trobat molt interessant, per la seva senzillesa **uText**.
 
-Amb aquest editor [uText]() podem prendre notes i usar-les en blogs, així com exportar-ho a Pdf, odt, latex, html, ...
+Amb aquest editor [uText](https://launchpad.net/utext) podem prendre notes i usar-les en blogs, així com exportar-ho a Pdf, odt, latex, html, ...
 
 ## instal·lació
 Per instal·lar aquest editor:
