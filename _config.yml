@@ -62,6 +62,9 @@ Blogroll:
       href: https://croniqueslinux.wordpress.com
       title: Croniques Linux
 
+### disqus
+disqus_short_name: croniqueslinux 
+disqus_show_comment_count: true 
 
 ### Build settings
 markdown: kramdown
