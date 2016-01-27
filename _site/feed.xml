@@ -5,15 +5,13 @@
     <description>un blog sobre linux i més</description>
     <link>http://croniqueslinux.github.io/</link>
     <atom:link href="http://croniqueslinux.github.io/zfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jan 2016 20:40:50 +0100</pubDate>
-    <lastBuildDate>Wed, 27 Jan 2016 20:40:50 +0100</lastBuildDate>
+    <pubDate>Wed, 27 Jan 2016 21:04:28 +0100</pubDate>
+    <lastBuildDate>Wed, 27 Jan 2016 21:04:28 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Editor uText</title>
-        <description>&lt;h1 id=&quot;editor-utext&quot;&gt;Editor uText&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/utext.png&quot; alt=&quot;utext&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/images/utext.png&quot; alt=&quot;utext&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;És un editor senzill de &lt;a href=&quot;https://ca.wikipedia.org/wiki/Markdown&quot;&gt;markdown&lt;/a&gt;. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l’edició amb la lectura i escriptura.&lt;/p&gt;
 

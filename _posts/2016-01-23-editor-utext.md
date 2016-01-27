@@ -6,8 +6,6 @@ categories: markdown, editor
 tags: markdown
 ---
 
-# Editor uText #
-
 ![utext]({{ base.url }}/images/utext.png)
 
 És un editor senzill de [markdown](https://ca.wikipedia.org/wiki/Markdown). Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l'edició amb la lectura i escriptura.

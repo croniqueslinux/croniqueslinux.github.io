@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Guestbook
+title: Visites
 comments: yes
 permalink: /guestbook/
 ---
-## Hi, welcome to leave a message here.:)
+## Hola, ací pots fer el comentari que creguis convenient ;-)
 
-> To follow the path, look to the master, follow the master, walk with the master, see through the master, become the master.
 
