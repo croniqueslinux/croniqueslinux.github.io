@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Etiquetes
+title: <i class="fa fa-tags"> Etiquetes</i>
 permalink: /tags/
 ---
 

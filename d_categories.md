@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Categories
+title: <i class="fa fa-star"> Categories</i>
 permalink: /categories/
 ---
 

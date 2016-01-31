@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Arxivat
+title: <i class="fa fa-calendar"> Arxivat</i>
 permalink: /archives/
 ---
 

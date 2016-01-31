@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Visites
+title: <i class="fa fa-comments"> Visites</i>
 comments: yes
 permalink: /guestbook/
 ---

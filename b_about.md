@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sobre mi
+title: <i class="fa fa-user"> Sobre mi</i>
 comments: no
 permalink: /about/
 ---
