@@ -29,10 +29,39 @@
 
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
+<script language="Javascript" type="text/javascript">
+function search_google()
+{
+  var query = document.getElementById("google-search").value;
+  window.open("http://google.com/search?q=" + query
+      + "%20site:" + "http://croniqueslinux.github.io");
+}
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+<script type='text/javascript'>
+var blocklink = ['http://humanorightswatch.org','http://o-o-6-o-o.com','http://darodar.com','http://blackhatworth.com','http://hulfingtonpost.com','http://bestwebsitesawards.com','http://darodar.com','http://buttons-for-website.com','http://ilovevitaly.co','http://semalt.com','http://priceg.com','http://simple-share-buttons.com','http://googlsucks.com','http://4webmasters.org','http://aliexpress.com','http://addons.mozilla.org/en-US/firefox/addon/ilovevitaly/','http://free-share-buttons.com','http://buttons-for-your-website.com','http://theguardlan.com','http://buy-cheap-online.info','http://best-seo-offer.com','http://4webmasters.org','http://trafficmonetize.org','http://howtostopreferralspam.eu','http://ilovevitaly.com','http://sanjosestartups.com','http://free-social-buttons.com','http://best-seo-offer.com','http://guardlink.org','http://www.event-tracking.com','http://www3.free-social-buttons.com','http://www1.free-social-buttons.com','http://www2.free-social-buttons.com','http://websites-reviews.com','http://floating-share-buttons.com','http://satellite.maps.ilovevitaly.com','http://free-social-buttons.com','http://www.event-tracking.com','http://erot.co'];
+for (var b = blocklink.length; b--;) {
+  if (document.referrer.match(blocklink[b]))
+    window.location = "http://www.google.com";
+}
+</script>
+
+
+
 
 </head>
-
-
 
 
 <body>
@@ -81,7 +110,7 @@
         
         
         
-        <a class="page-link" href="/feed.xml">Subscribe</a>
+        <a class="page-link" href="/feed.xml">Subscriu-te</a>
         
         
         
@@ -107,8 +136,30 @@
 
   <article class="post-content about"> 
     <h3 id="aquest-blog">Aquest blog…</h3>
-<p>Les cròniques són aquelles històries explicades seguint una línia temporal… a l’edat mitja en teniem de famoses, seguint la idea de la “chronica” vull fer un recull històric del meu aprenentage al món Gnu/Linux, porto des del 2004 posat seriosament, però sovint tot acaba en l’oblit o en trossos de paper per casa… no crec que servisca de molt, però al menys serà divertit… com ho és aprendre d’este món Gnu/Linux.<br />
-<img src="https://i1.wp.com/solotrucos.org/archivos/2008/12/gnu-linux.jpg" alt="GNULinux" /></p>
+<p>Les cròniques són aquelles històries explicades seguint una línia temporal… a l’edat mitja en teniem de famoses.</p>
+
+<p>Bé, i seguint la idea de la “chronica” vull fer un recull històric del meu aprenentage al món Gnu/Linux. <br />
+ <i class="fa fa-linux fa-3x"></i></p>
+
+<p>Ja porto des del 2004 posat seriosament, però sovint tot acaba en l’oblit o en trossos de paper per casa… no crec que servisca de molt, però al menys serà divertit… com ho és aprendre d’este món Gnu/Linux.</p>
+
+<p>Aquest blog a github neix aquest any 2016 com a continuació al que tinc a <a href="https://croniqueslinux.wordpress.com/">WordPress</a>.</p>
+
+<p><i class="fa fa-wordpress fa-3x"> <i class="fa fa-refresh fa-spin"></i> <i class="fa fa-github"></i></i></p>
+
+<p>En un principi era substituir-lo, però al final m’he decidit (de moment) per mantenir els dos. Tot i que normalment escriure aquí, de moment no migraré els articles, i pot ser que escrigui encara alguna cosa al de WordPress.</p>
+
+<p>Però aquest espai a <code>github pages</code> em resulta ideal i molt interessant. Tothom que vulgui pot baixar-se tots els meus articles directament del github amb un:</p>
+
+<pre><code>git clone https://github.com/croniqueslinux/croniqueslinux.github.io
+</code></pre>
+
+<p><span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+</span></p>
+
+<p><img src="https://i1.wp.com/solotrucos.org/archivos/2008/12/gnu-linux.jpg" alt="GNULinux" /></p>
 
   </article>
 
@@ -127,26 +178,39 @@
 <div class="sidebar-module about">
   <h4>Sobre mi</h4>
   <img title="Norbux" src="/images/norbuks.png" alt="Norbux"/>
-  <span>Benvinguts al meu blog, articles antics a https://croniqueslinux.wordpress.com/</span>
+  <span>Benvinguts al meu blog, articles sobre Gnu/Linux</span>
   <br />
 
   
 
-  Em pots trobar a:
+  Em pots trobar a: <br />
+
 
   
-  <a href="mailto:norbux@gmx.com" title="mailto: norbux@gmx.com">Email</a> /
+  <a href="mailto:norbux@gmx.com" title="mailto: norbux@gmx.com"><i class="fa fa-envelope-square fa-3x"></i></a>&nbsp;
   
   
-  <a href="https://github.com/croniqueslinux" title="GithubID: croniqueslinux">Github</a> /
+  <a href="https://github.com/croniqueslinux" title="GithubID: croniqueslinux"><i class="fa fa-github-square fa-3x"></i></a>&nbsp;
   
   
-  <a href="https://twitter.com/manelsales" title="TwitterID: manelsales">Twitter</a>
+  <a href="https://twitter.com/manelsales" title="TwitterID: manelsales"><i class="fa fa-twitter-square fa-3x"></i></a>
+  
+  
+  <a href="https://croniqueslinux.wordpress.com/" title="Wordpress: croniqueslinux"><i class="fa fa-wordpress fa-3x"></i></a>&nbsp;
   
 
   
 
 </div>
+
+<div class="sidebar-module">
+  <h4>Cerca al blog</h4>
+  <form onsubmit="search_google()" >
+    <input type="text" id="google-search" placeholder="Google search" />
+    <input type="submit" name="sa" value="Go" />
+  </form>
+</div>
+
 
 <div class="sidebar-module"> <!-- sidebar-module-inset">-->
   <h4>Drets d'autoria</h4>
@@ -232,6 +296,16 @@
   <a href="https://github.com/">Github</a>
   
   | Theme <a href="https://github.com/yulijia/freshman21/">Freshman21</a> Design by <a href="http://yulijia.net">Lijia Yu</a>  
+
+
+  <div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;">
+    <a title="Back To Top"><img src="/images/topbutton.png"/></a>
+  </div>
+
+  <script src="/js/jquery-1.9.1.min.js"></script>
+  <script src="/js/totop.js"></script>  
+
+
 
 </footer>
 

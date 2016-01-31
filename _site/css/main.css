@@ -3,6 +3,7 @@
  * Reset some basic elements
  */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans");
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 body, h1, h2, h3, h4,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -117,7 +118,7 @@ a {
   .post-content a:visited {
     color: #113f7c; }
   .post-content a:hover {
-    color: #6699FF;
+    color: #DD1144;
     text-decoration: none; }
 
 /**
@@ -142,7 +143,7 @@ blockquote {
 pre, code {
   font-size: 15px;
   border-radius: 3px;
-  background-color: #003300;
+  background-color: #111;
   color: #00FF33; }
 
 code {
@@ -327,7 +328,7 @@ cite {
 .site-footer {
   clear: both;
   text-align: center;
-  background-color: #a9f9f9;
+  background-color: #f9f9f9;
   border-top: 1px solid #e8e8e8;
   margin: 15px 0;
   padding: 15px 0;

@@ -29,10 +29,39 @@
 
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
+<script language="Javascript" type="text/javascript">
+function search_google()
+{
+  var query = document.getElementById("google-search").value;
+  window.open("http://google.com/search?q=" + query
+      + "%20site:" + "http://croniqueslinux.github.io");
+}
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+<script type='text/javascript'>
+var blocklink = ['http://humanorightswatch.org','http://o-o-6-o-o.com','http://darodar.com','http://blackhatworth.com','http://hulfingtonpost.com','http://bestwebsitesawards.com','http://darodar.com','http://buttons-for-website.com','http://ilovevitaly.co','http://semalt.com','http://priceg.com','http://simple-share-buttons.com','http://googlsucks.com','http://4webmasters.org','http://aliexpress.com','http://addons.mozilla.org/en-US/firefox/addon/ilovevitaly/','http://free-share-buttons.com','http://buttons-for-your-website.com','http://theguardlan.com','http://buy-cheap-online.info','http://best-seo-offer.com','http://4webmasters.org','http://trafficmonetize.org','http://howtostopreferralspam.eu','http://ilovevitaly.com','http://sanjosestartups.com','http://free-social-buttons.com','http://best-seo-offer.com','http://guardlink.org','http://www.event-tracking.com','http://www3.free-social-buttons.com','http://www1.free-social-buttons.com','http://www2.free-social-buttons.com','http://websites-reviews.com','http://floating-share-buttons.com','http://satellite.maps.ilovevitaly.com','http://free-social-buttons.com','http://www.event-tracking.com','http://erot.co'];
+for (var b = blocklink.length; b--;) {
+  if (document.referrer.match(blocklink[b]))
+    window.location = "http://www.google.com";
+}
+</script>
+
+
+
 
 </head>
-
-
 
 
 <body>
@@ -81,7 +110,7 @@
         
         
         
-        <a class="page-link" href="/feed.xml">Subscribe</a>
+        <a class="page-link" href="/feed.xml">Subscriu-te</a>
         
         
         
@@ -101,9 +130,9 @@
   <div class="page-content col-sm-8">
     <div class="home">
   <div class="post" itemscope itemtype="http://schema.org/BlogPosting" >
+
     
-    
-  
+
     <header class="post-header">
       <h1 itemprop="name" class="post-title">
         <a itemprop="url" class="post-link" href="/markdown,/editor/2016/01/23/editor-utext.html">Editor uText</a>
@@ -112,9 +141,9 @@
       <p class="post-meta">
       Categories:
       
-      <a href="/categories/#markdown,">markdown,</a>
+      <a href="/categories/#markdown,">markdown,</a><!--&nbsp;-->
       
-      <a href="/categories/#editor">editor</a>
+      <a href="/categories/#editor">editor</a><!--&nbsp;-->
       
       
       | Etiquetat:
@@ -123,12 +152,13 @@
       
       
       <time itemprop="datePublished" datetime="2016-01-23">
-      | data: Jan 23, 2016
+        | data: Jan 23, 2016
       </time>
       </p>
     </header>
 
     <article class="post-content" itemprop="articleBody">
+      
       <p><img src="/images/utext.png" alt="utext" /></p>
 
 <p>És un editor senzill de <a href="https://ca.wikipedia.org/wiki/Markdown">markdown</a>. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l’edició amb la lectura i escriptura.</p>
@@ -143,39 +173,38 @@ En el meu cas, normalment uso <strong>Emacs</strong> amb el <a href="http://jble
 
 <h2 id="installaci">instal·lació</h2>
 <p>Per instal·lar aquest editor:<br />
-Terminal obert de la cursa, App Launcher, o a través de les tecles de drecera <code class="highlighter-rouge">Ctrl + Alt + T</code>. Quan s’obre, executar sota ordres per fer-ho des PPA del desenvolupador:</p>
+Terminal obert de la cursa, App Launcher, o a través de les tecles de drecera <code>Ctrl + Alt + T</code>. Quan s’obre, executar sota ordres per fer-ho des PPA del desenvolupador:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>sudo add-apt-repository ppa:atareao/utext
+<pre><code>sudo add-apt-repository ppa:atareao/utext
 sudo apt-get update
 sudo apt-get install utext
 </code></pre>
-</div>
 
 <p>Si volem, també podem baixar-nos el <strong>deb</strong> directament de la pàgina <a href="http://ppa.launchpad.net/atareao/utext/ubuntu/pool/main/u/utext/">PPA</a>:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code> http://ppa.launchpad.net/atareao/utext/ubuntu/pool/main/u/utext/utext_0.3.9-0extras15.04.0_all.deb
+<pre><code> http://ppa.launchpad.net/atareao/utext/ubuntu/pool/main/u/utext/utext_0.3.9-0extras15.04.0_all.deb
 </code></pre>
-</div>
 
 <p>Hi ha l’opció d’usar <em>l’apt</em> de l’ubuntu a partir de <a href="https://apps.ubuntu.com/cat/applications/utext/">la seva pàgina</a></p>
 
 <h2 id="en-catal">en català</h2>
 <p>Per defecte no me l’he trobat traduït al català, i mans a l’obra, n’he fet una traducció a <a href="https://translations.launchpad.net/utext/trunk/+pots/po/ca">la secció traduccions</a>. Seria un plaer que hi contribuïu i en feu una traducció més acurada.</p>
 
-<p>Finalment he anat a la pàgina de traduccions del <a href="https://translations.launchpad.net/utext/trunk/+pots/po/ca/+export">launchpad</a> i l’exportat en format <code class="highlighter-rouge">mo</code>.</p>
+<p>Finalment he anat a la pàgina de traduccions del <a href="https://translations.launchpad.net/utext/trunk/+pots/po/ca/+export">launchpad</a> i l’exportat en format <code>mo</code>.</p>
 
-<p>Un cop baixat cal crear una carpeta anomenada <code class="highlighter-rouge">ca_ES</code>, i a dins crear una altra carpeta anomenada <code class="highlighter-rouge">LG_MESSAGES</code>, i a dins copiar el fitxer <code class="highlighter-rouge">*.mo</code> que us heu baixat. Un cop ho tingueu cal desar-ho a la carpeta:</p>
+<p>Un cop baixat cal crear una carpeta anomenada <code>ca_ES</code>, i a dins crear una altra carpeta anomenada <code>LG_MESSAGES</code>, i a dins copiar el fitxer <code>*.mo</code> que us heu baixat. Un cop ho tingueu cal desar-ho a la carpeta:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>/opt/extras.ubuntu.com/utext/share/locale-langpack
+<pre><code>/opt/extras.ubuntu.com/utext/share/locale-langpack
 </code></pre>
-</div>
 
 <p>Ara cada vegada que inicieu el programa, podreu veure directament en català els menús.</p>
 
-    </article> <hr />
+      
+    </article>
+    <hr />
+
     
-    
-  
+
   </div>
 </div>
 
@@ -190,26 +219,39 @@ sudo apt-get install utext
 <div class="sidebar-module about">
   <h4>Sobre mi</h4>
   <img title="Norbux" src="/images/norbuks.png" alt="Norbux"/>
-  <span>Benvinguts al meu blog, articles antics a https://croniqueslinux.wordpress.com/</span>
+  <span>Benvinguts al meu blog, articles sobre Gnu/Linux</span>
   <br />
 
   
 
-  Em pots trobar a:
+  Em pots trobar a: <br />
+
 
   
-  <a href="mailto:norbux@gmx.com" title="mailto: norbux@gmx.com">Email</a> /
+  <a href="mailto:norbux@gmx.com" title="mailto: norbux@gmx.com"><i class="fa fa-envelope-square fa-3x"></i></a>&nbsp;
   
   
-  <a href="https://github.com/croniqueslinux" title="GithubID: croniqueslinux">Github</a> /
+  <a href="https://github.com/croniqueslinux" title="GithubID: croniqueslinux"><i class="fa fa-github-square fa-3x"></i></a>&nbsp;
   
   
-  <a href="https://twitter.com/manelsales" title="TwitterID: manelsales">Twitter</a>
+  <a href="https://twitter.com/manelsales" title="TwitterID: manelsales"><i class="fa fa-twitter-square fa-3x"></i></a>
+  
+  
+  <a href="https://croniqueslinux.wordpress.com/" title="Wordpress: croniqueslinux"><i class="fa fa-wordpress fa-3x"></i></a>&nbsp;
   
 
   
 
 </div>
+
+<div class="sidebar-module">
+  <h4>Cerca al blog</h4>
+  <form onsubmit="search_google()" >
+    <input type="text" id="google-search" placeholder="Google search" />
+    <input type="submit" name="sa" value="Go" />
+  </form>
+</div>
+
 
 <div class="sidebar-module"> <!-- sidebar-module-inset">-->
   <h4>Drets d'autoria</h4>
@@ -295,6 +337,16 @@ sudo apt-get install utext
   <a href="https://github.com/">Github</a>
   
   | Theme <a href="https://github.com/yulijia/freshman21/">Freshman21</a> Design by <a href="http://yulijia.net">Lijia Yu</a>  
+
+
+  <div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;">
+    <a title="Back To Top"><img src="/images/topbutton.png"/></a>
+  </div>
+
+  <script src="/js/jquery-1.9.1.min.js"></script>
+  <script src="/js/totop.js"></script>  
+
+
 
 </footer>
 

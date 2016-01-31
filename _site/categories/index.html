@@ -29,10 +29,39 @@
 
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
+<script language="Javascript" type="text/javascript">
+function search_google()
+{
+  var query = document.getElementById("google-search").value;
+  window.open("http://google.com/search?q=" + query
+      + "%20site:" + "http://croniqueslinux.github.io");
+}
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+<script type='text/javascript'>
+var blocklink = ['http://humanorightswatch.org','http://o-o-6-o-o.com','http://darodar.com','http://blackhatworth.com','http://hulfingtonpost.com','http://bestwebsitesawards.com','http://darodar.com','http://buttons-for-website.com','http://ilovevitaly.co','http://semalt.com','http://priceg.com','http://simple-share-buttons.com','http://googlsucks.com','http://4webmasters.org','http://aliexpress.com','http://addons.mozilla.org/en-US/firefox/addon/ilovevitaly/','http://free-share-buttons.com','http://buttons-for-your-website.com','http://theguardlan.com','http://buy-cheap-online.info','http://best-seo-offer.com','http://4webmasters.org','http://trafficmonetize.org','http://howtostopreferralspam.eu','http://ilovevitaly.com','http://sanjosestartups.com','http://free-social-buttons.com','http://best-seo-offer.com','http://guardlink.org','http://www.event-tracking.com','http://www3.free-social-buttons.com','http://www1.free-social-buttons.com','http://www2.free-social-buttons.com','http://websites-reviews.com','http://floating-share-buttons.com','http://satellite.maps.ilovevitaly.com','http://free-social-buttons.com','http://www.event-tracking.com','http://erot.co'];
+for (var b = blocklink.length; b--;) {
+  if (document.referrer.match(blocklink[b]))
+    window.location = "http://www.google.com";
+}
+</script>
+
+
+
 
 </head>
-
-
 
 
 <body>
@@ -81,7 +110,7 @@
         
         
         
-        <a class="page-link" href="/feed.xml">Subscribe</a>
+        <a class="page-link" href="/feed.xml">Subscriu-te</a>
         
         
         
@@ -150,26 +179,39 @@
 <div class="sidebar-module about">
   <h4>Sobre mi</h4>
   <img title="Norbux" src="/images/norbuks.png" alt="Norbux"/>
-  <span>Benvinguts al meu blog, articles antics a https://croniqueslinux.wordpress.com/</span>
+  <span>Benvinguts al meu blog, articles sobre Gnu/Linux</span>
   <br />
 
   
 
-  Em pots trobar a:
+  Em pots trobar a: <br />
+
 
   
-  <a href="mailto:norbux@gmx.com" title="mailto: norbux@gmx.com">Email</a> /
+  <a href="mailto:norbux@gmx.com" title="mailto: norbux@gmx.com"><i class="fa fa-envelope-square fa-3x"></i></a>&nbsp;
   
   
-  <a href="https://github.com/croniqueslinux" title="GithubID: croniqueslinux">Github</a> /
+  <a href="https://github.com/croniqueslinux" title="GithubID: croniqueslinux"><i class="fa fa-github-square fa-3x"></i></a>&nbsp;
   
   
-  <a href="https://twitter.com/manelsales" title="TwitterID: manelsales">Twitter</a>
+  <a href="https://twitter.com/manelsales" title="TwitterID: manelsales"><i class="fa fa-twitter-square fa-3x"></i></a>
+  
+  
+  <a href="https://croniqueslinux.wordpress.com/" title="Wordpress: croniqueslinux"><i class="fa fa-wordpress fa-3x"></i></a>&nbsp;
   
 
   
 
 </div>
+
+<div class="sidebar-module">
+  <h4>Cerca al blog</h4>
+  <form onsubmit="search_google()" >
+    <input type="text" id="google-search" placeholder="Google search" />
+    <input type="submit" name="sa" value="Go" />
+  </form>
+</div>
+
 
 <div class="sidebar-module"> <!-- sidebar-module-inset">-->
   <h4>Drets d'autoria</h4>
@@ -255,6 +297,16 @@
   <a href="https://github.com/">Github</a>
   
   | Theme <a href="https://github.com/yulijia/freshman21/">Freshman21</a> Design by <a href="http://yulijia.net">Lijia Yu</a>  
+
+
+  <div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;">
+    <a title="Back To Top"><img src="/images/topbutton.png"/></a>
+  </div>
+
+  <script src="/js/jquery-1.9.1.min.js"></script>
+  <script src="/js/totop.js"></script>  
+
+
 
 </footer>
 
