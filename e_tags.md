@@ -1,9 +1,9 @@
 ---
 layout: page
-title: <i class="fa fa-tags"> Etiquetes</i>
+title: Etiquetes
 permalink: /tags/
 ---
-
+<i class="fa fa-tags fa-3x"> </i>
 <ul class="tags-box">
 {% if site.posts != empty %}
 {% for tag in site.tags %}

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: <i class="fa fa-user"> Sobre mi</i>
+title: Sobre mi
 comments: no
 permalink: /about/
 ---
-
+<i class="fa fa-user fa-3x"> </i>
 
 ### Aquest blog...
 Les cròniques són aquelles històries explicades seguint una línia temporal… a l’edat mitja en teniem de famoses.
