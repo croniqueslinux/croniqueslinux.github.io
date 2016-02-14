@@ -135,6 +135,80 @@ for (var b = blocklink.length; b--;) {
 
     <header class="post-header">
       <h1 itemprop="name" class="post-title">
+        <a itemprop="url" class="post-link" href="/neteja/2016/02/08/eliminar-copy.html">Eliminar el compte de Copy</a>
+      </h1>
+      <meta itemprop="keywords" content="núvol,neteja" />
+      <p class="post-meta">
+      Categories:
+      
+      <a href="/categories/#neteja">neteja</a><!--&nbsp;-->
+      
+      
+      | Etiquetat:
+      
+      <a href="/tags/#núvol" title="núvol">núvol </a>, 
+      
+      <a href="/tags/#neteja" title="neteja">neteja </a>
+      
+      
+      <time itemprop="datePublished" datetime="2016-02-08">
+        | data: Feb 8, 2016
+      </time>
+      </p>
+    </header>
+
+    <article class="post-content" itemprop="articleBody">
+      
+      <p><img src="http://www.screencastsonline.com/public_images/01-new/SCOM0403-summary-icon-100x100.png" alt="Copy" title="Copy" /></p>
+
+<p>Ja fa uns dies que el <strong>Copy</strong> m’avisa que deixarà de tenir suport.</p>
+
+<p>A la <a href="https://www.copy.com">seva pàgina</a> podem llegir:<br />
+&gt; Copy and CudaDrive services will be discontinued.<br />
+&gt; We are announcing today that the Copy and CudaDrive services will be discontinued on May 1, 2016.</p>
+
+<p>És una llàstima, ja que fins ara m’ha anat molt bé. Però el món digital ens obliga a estar preparats per a canvis, així que ara toca deixar-lo.</p>
+
+<p>En la meva distro habitual (<strong><em>Lubuntu</em></strong>) cal treure la seva execució automàtica.<br />
+Els passos que he seguit són:</p>
+
+<blockquote>
+  <ul>
+    <li>desintal·lar</li>
+    <li>eliminar la carpeta on resideix el programa</li>
+    <li>una còpia de la carpeta de <em>Copy</em></li>
+  </ul>
+</blockquote>
+
+<p>Així que ho he fet de la següent manera… Primer cal entrar a la seva carpeta:</p>
+
+<pre><code>cd .copy/x86/
+</code></pre>
+
+<p>A dins cal executar la comanda:</p>
+
+<pre><code>sudo ./CopyCmd overlay remove 
+</code></pre>
+
+<p>I elimino la carpeta on ho tenia instal·lat:</p>
+
+<pre><code>rm -rf .copy/
+</code></pre>
+
+<p>Finalment deso la carpeta dels fitxers en un disc extern. <br />
+I ara cal buscar un altre servei al núvol!</p>
+
+<p>;-)</p>
+
+
+      
+    </article>
+    <hr />
+
+    
+
+    <header class="post-header">
+      <h1 itemprop="name" class="post-title">
         <a itemprop="url" class="post-link" href="/markdown,/editor/2016/01/23/editor-utext.html">Editor uText</a>
       </h1>
       <meta itemprop="keywords" content="markdown" />
@@ -273,6 +347,10 @@ sudo apt-get install utext
   <h4>Articles recents</h4>
   
   <li>
+  <a href="/neteja/2016/02/08/eliminar-copy.html" title="Eliminar el compte de Copy" rel="bookmark">Eliminar el compte de Copy</a>
+  </li>
+  
+  <li>
   <a href="/markdown,/editor/2016/01/23/editor-utext.html" title="Editor uText" rel="bookmark">Editor uText</a>
   </li>
   
@@ -286,6 +364,8 @@ sudo apt-get install utext
   
   <li><a href="/categories/#editor" title="editor" rel="1">editor (1)</a></li>
   
+  <li><a href="/categories/#neteja" title="neteja" rel="1">neteja (1)</a></li>
+  
 </div>
 
 
@@ -293,6 +373,10 @@ sudo apt-get install utext
   <h4>Etiquetes</h4>
   
     <a href="/tags/#markdown" title="markdown" rel="1">markdown</a> &nbsp;
+  
+    <a href="/tags/#núvol" title="núvol" rel="1">núvol</a> &nbsp;
+  
+    <a href="/tags/#neteja" title="neteja" rel="1">neteja</a> &nbsp;
   
 </div>
 
@@ -316,6 +400,9 @@ sudo apt-get install utext
   
   
   <li id="2016" > <a href="/archives/#2016">2016</a></li>
+  
+  
+  
   
   
 

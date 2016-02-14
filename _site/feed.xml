@@ -5,9 +5,66 @@
     <description>un blog sobre linux i més</description>
     <link>http://croniqueslinux.github.io/</link>
     <atom:link href="http://croniqueslinux.github.io/zfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 Jan 2016 22:48:16 +0100</pubDate>
-    <lastBuildDate>Sun, 31 Jan 2016 22:48:16 +0100</lastBuildDate>
+    <pubDate>Sun, 14 Feb 2016 18:16:10 +0100</pubDate>
+    <lastBuildDate>Sun, 14 Feb 2016 18:16:10 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Eliminar el compte de Copy</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://www.screencastsonline.com/public_images/01-new/SCOM0403-summary-icon-100x100.png&quot; alt=&quot;Copy&quot; title=&quot;Copy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ja fa uns dies que el &lt;strong&gt;Copy&lt;/strong&gt; m’avisa que deixarà de tenir suport.&lt;/p&gt;
+
+&lt;p&gt;A la &lt;a href=&quot;https://www.copy.com&quot;&gt;seva pàgina&lt;/a&gt; podem llegir:&lt;br /&gt;
+&amp;gt; Copy and CudaDrive services will be discontinued.&lt;br /&gt;
+&amp;gt; We are announcing today that the Copy and CudaDrive services will be discontinued on May 1, 2016.&lt;/p&gt;
+
+&lt;p&gt;És una llàstima, ja que fins ara m’ha anat molt bé. Però el món digital ens obliga a estar preparats per a canvis, així que ara toca deixar-lo.&lt;/p&gt;
+
+&lt;p&gt;En la meva distro habitual (&lt;strong&gt;&lt;em&gt;Lubuntu&lt;/em&gt;&lt;/strong&gt;) cal treure la seva execució automàtica.&lt;br /&gt;
+Els passos que he seguit són:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;desintal·lar&lt;/li&gt;
+    &lt;li&gt;eliminar la carpeta on resideix el programa&lt;/li&gt;
+    &lt;li&gt;una còpia de la carpeta de &lt;em&gt;Copy&lt;/em&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Així que ho he fet de la següent manera… Primer cal entrar a la seva carpeta:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd .copy/x86/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A dins cal executar la comanda:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo ./CopyCmd overlay remove 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I elimino la carpeta on ho tenia instal·lat:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rm -rf .copy/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finalment deso la carpeta dels fitxers en un disc extern. &lt;br /&gt;
+I ara cal buscar un altre servei al núvol!&lt;/p&gt;
+
+&lt;p&gt;;-)&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 08 Feb 2016 17:13:38 +0100</pubDate>
+        <link>http://croniqueslinux.github.io/neteja/2016/02/08/eliminar-copy.html</link>
+        <guid isPermaLink="true">http://croniqueslinux.github.io/neteja/2016/02/08/eliminar-copy.html</guid>
+        
+        <category>núvol</category>
+        
+        <category>neteja</category>
+        
+        
+        <category>neteja</category>
+        
+      </item>
     
       <item>
         <title>Editor uText</title>
