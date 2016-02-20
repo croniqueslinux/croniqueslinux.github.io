@@ -75,5 +75,6 @@ kramdown:
         input: GFM
         syntax_highlighter: rouge
 gems: [jekyll-paginate]
+gems: [jemoji]
 paginate: 5
 excerpt_separator: <!-- more -->

@@ -33,4 +33,4 @@ Dins de l'arxiu cal editar-ho:
   
 Un cop desat reiniciem la **Raspberry** i comprovem que ha canviat la ip, amb la comanda `ipconfig` podem saber quina ip tenim ara.
 
-;-)
+:star:

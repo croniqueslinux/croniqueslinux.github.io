@@ -42,3 +42,5 @@ Un cop baixat cal crear una carpeta anomenada `ca_ES`, i a dins crear una altra 
     /opt/extras.ubuntu.com/utext/share/locale-langpack
     
 Ara cada vegada que inicieu el programa, podreu veure directament en català els menús.
+
+:+1:

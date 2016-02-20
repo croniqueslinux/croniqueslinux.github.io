@@ -37,5 +37,5 @@ I elimino la carpeta on ho tenia instal·lat:
 Finalment deso la carpeta dels fitxers en un disc extern. 
 I ara cal buscar un altre servei al núvol!
 
-;-)
+:+1:
 
