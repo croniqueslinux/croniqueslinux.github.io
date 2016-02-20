@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Canviar la IP de la Raspberry"
-date:   2016-02-20 10:00:45
+date:   2016-02-20 7:00:00
 categories: raspberry
 tags: ip configuració
 ---
