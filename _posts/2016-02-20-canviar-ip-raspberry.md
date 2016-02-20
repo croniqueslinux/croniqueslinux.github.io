@@ -6,7 +6,7 @@ categories: raspberry
 tags: ip configuració
 ---
 
-![Raspberry](http://techedemic.com/wp-content/uploads/2014/08/raspberry-pi-xl.gif  "Raspberry")
+![Raspberry](https://raw.githubusercontent.com/croniqueslinux/croniqueslinux.github.io/master/images/raspberrypi.gif  "Raspberry")
 
 Tinc una [Raspberry](https://www.raspberrypi.org) Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per `ssh`. Explico els passos que he seguit.
 
