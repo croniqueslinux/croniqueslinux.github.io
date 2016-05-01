@@ -5,9 +5,61 @@
     <description>un blog sobre linux i més</description>
     <link>http://croniqueslinux.github.io/</link>
     <atom:link href="http://croniqueslinux.github.io/zfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Feb 2016 10:36:02 +0100</pubDate>
-    <lastBuildDate>Sat, 20 Feb 2016 10:36:02 +0100</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sun, 01 May 2016 14:44:15 +0200</pubDate>
+    <lastBuildDate>Sun, 01 May 2016 14:44:15 +0200</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>GIT dóna Error en user.mail</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://git-scm.com/images/logo@2x.png&quot; alt=&quot;Git&quot; title=&quot;GIT&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Avui m’he trobat que quan he intentat fer un&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git commit -m &quot;nou article&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;M’ha donat el següent error:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;git: fatal unable to auto-detect email address (got “some wrong email”)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Em demana que configuri:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;git config --global user.mail “you@example.com”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Estic usant la &lt;strong&gt;Linkat&lt;/strong&gt; lleugera (lUbuntu 14.04) i sembla que és un error en configurar&lt;br /&gt;
+&lt;del&gt;user.mail&lt;/del&gt; que li falta una &lt;strong&gt;e&lt;/strong&gt;. Si no vull que canviï tota la configuració del &lt;strong&gt;git&lt;/strong&gt; no cal posar &lt;em&gt;--global&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Per solucionar-ho només cal fer la comanda:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config --global user.email &quot;you@example.com&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Finalment podem veure com ha quedat amb la comanda:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git config --local -l
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;:star:&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 Apr 2016 09:00:00 +0200</pubDate>
+        <link>http://croniqueslinux.github.io/git/2016/04/26/errorgitemail.html</link>
+        <guid isPermaLink="true">http://croniqueslinux.github.io/git/2016/04/26/errorgitemail.html</guid>
+        
+        <category>git</category>
+        
+        <category>comandes</category>
+        
+        
+        <category>git</category>
+        
+      </item>
     
       <item>
         <title>Canviar la IP de la Raspberry</title>
@@ -29,7 +81,7 @@
 
 &lt;p&gt;Dins de l’arxiu cal editar-ho:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; # auto lo # ho comento i deixo l'antic per si ho vull desfer fàcilment. I canvio lo --&amp;gt; eth0
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; # auto lo # ho comento i deixo l&#39;antic per si ho vull desfer fàcilment. I canvio lo --&amp;gt; eth0
   auto eth0
   iface lo inet loopback
 
@@ -44,9 +96,9 @@
 
 &lt;p&gt;Un cop desat reiniciem la &lt;strong&gt;Raspberry&lt;/strong&gt; i comprovem que ha canviat la ip, amb la comanda &lt;code class=&quot;highlighter-rouge&quot;&gt;ipconfig&lt;/code&gt; podem saber quina ip tenim ara.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;emoji&quot; title=&quot;:star:&quot; alt=&quot;:star:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/2b50.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;:star:&lt;/p&gt;
 </description>
-        <pubDate>Sat, 20 Feb 2016 11:00:45 +0100</pubDate>
+        <pubDate>Sat, 20 Feb 2016 08:00:00 +0100</pubDate>
         <link>http://croniqueslinux.github.io/raspberry/2016/02/20/canviar-ip-raspberry.html</link>
         <guid isPermaLink="true">http://croniqueslinux.github.io/raspberry/2016/02/20/canviar-ip-raspberry.html</guid>
         
@@ -103,7 +155,7 @@ Els passos que he seguit són:&lt;/p&gt;
 &lt;p&gt;Finalment deso la carpeta dels fitxers en un disc extern. &lt;br /&gt;
 I ara cal buscar un altre servei al núvol!&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;emoji&quot; title=&quot;:+1:&quot; alt=&quot;:+1:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f44d.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;:+1:&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 08 Feb 2016 17:13:38 +0100</pubDate>
@@ -164,7 +216,7 @@ sudo apt-get install utext
 
 &lt;p&gt;Ara cada vegada que inicieu el programa, podreu veure directament en català els menús.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;emoji&quot; title=&quot;:+1:&quot; alt=&quot;:+1:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f44d.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;:+1:&lt;/p&gt;
 </description>
         <pubDate>Sat, 23 Jan 2016 17:13:38 +0100</pubDate>
         <link>http://croniqueslinux.github.io/markdown,/editor/2016/01/23/editor-utext.html</link>
