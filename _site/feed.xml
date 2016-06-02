@@ -5,9 +5,88 @@
     <description>un blog sobre linux i més</description>
     <link>http://croniqueslinux.github.io/</link>
     <atom:link href="http://croniqueslinux.github.io/zfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 01 May 2016 14:44:15 +0200</pubDate>
-    <lastBuildDate>Sun, 01 May 2016 14:44:15 +0200</lastBuildDate>
+    <pubDate>Fri, 27 May 2016 21:51:07 +0200</pubDate>
+    <lastBuildDate>Fri, 27 May 2016 21:51:07 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Què és markdown, usos i idees</title>
+        <description>&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn0.iconfinder.com/data/icons/octicons/1024/markdown-128.png&quot; alt=&quot;&quot; title=&quot;md&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MarkDown&lt;/strong&gt; és un llenguatge de marques lleuger (creat per  &lt;em&gt;JOHN GRUBER i AARON SWARTZ&lt;/em&gt;). Busca aconseguir llegibilitat escrivint text pla.&lt;/p&gt;
+
+&lt;p&gt;que s’està convertint en un estàndard per prendre notes en text pla, fer PDF, …i  fer pàgines web ràpides (tipus github pages), per escriure en Wordpress, Tumblr, stackexchange, i demés….&lt;/p&gt;
+
+&lt;p&gt;jo uso &lt;strong&gt;Emacs&lt;/strong&gt; i &lt;strong&gt;utext&lt;/strong&gt; i el programa cal acabar de traduir-lo a català….&lt;/p&gt;
+
+&lt;p&gt;tenim més info a &lt;br /&gt;
+&lt;a href=&quot;http:// http://www.atareao.es/apps/utext-un-editor-de-texto-markdown-para-ubuntu/&quot;&gt;http://www.atareao.es/apps/utext-un-editor-de-texto-markdown-para-ubuntu/ &lt;/a&gt;&lt;br /&gt;
+ i a &lt;br /&gt;
+&lt;a href=&quot;http:// https://apps.ubuntu.com/cat/applications/utext/&quot;&gt; https://apps.ubuntu.com/cat/applications/utext/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;qu-s-llenguatge-de-marques&quot;&gt;Què és llenguatge de marques?&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Un llenguatge de marques lleuger és un tipus de &lt;strong&gt;format de text&lt;/strong&gt; que ocupa poc espai i és senzill d’editar amb qualsevol editor de text pla.&lt;/em&gt;  &lt;a href=&quot;https://es.wikipedia.org/wiki/Lenguaje_de_marcas_ligero&quot;&gt;font&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ara tenim que fins i tot els &lt;strong&gt;whatsapp&lt;/strong&gt; i d’altres han començat a usar llenguatge de marques (*negreta*,~ratllat~,_subratllat_).&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;per-qu-markdown&quot;&gt;Per què markdown?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ca.wikipedia.org/wiki/Markdown&quot;&gt;https://ca.wikipedia.org/wiki/Markdown &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/&quot;&gt;https://daringfireball.net/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.markdowntutorial.com/&quot;&gt;http://www.markdowntutorial.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;programes-offline&quot;&gt;Programes offline&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://remarkableapp.github.io/&quot;&gt;http://remarkableapp.github.io/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://uberwriter.wolfvollprecht.de/&quot;&gt;http://uberwriter.wolfvollprecht.de/&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://github.com/retext-project/retext&quot;&gt;https://github.com/retext-project/retext &lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://pad.haroopress.com/user.html#download&quot;&gt;http://pad.haroopress.com/user.html#download&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://atom.io/&quot;&gt;https://atom.io/&lt;/a&gt; editor potent&lt;br /&gt;
+&lt;a href=&quot;http://getspringseed.com/&quot;&gt;http://getspringseed.com/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.mdcharm.com/&quot;&gt;http://www.mdcharm.com/&lt;/a&gt; 64 bits&lt;br /&gt;
+&lt;a href=&quot;https://apps.ubuntu.com/cat/applications/utext/&quot;&gt;https://apps.ubuntu.com/cat/applications/utext/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://jblevins.org/projects/markdown-mode/&quot;&gt;http://jblevins.org/projects/markdown-mode/&lt;/a&gt; emacs mode&lt;/p&gt;
+
+&lt;h2 id=&quot;programes-online&quot;&gt;Programes online&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://writeboxapps.com/&quot;&gt;http://writeboxapps.com/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://markable.in/&quot;&gt;https://markable.in/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://typewrite.io/&quot;&gt;https://typewrite.io/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://stackedit.io/&quot;&gt;https://stackedit.io/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.makeuseof.com/tag/6-markdown-editors-play-nice-google-drive/&quot;&gt;http://www.makeuseof.com/tag/6-markdown-editors-play-nice-google-drive/&lt;/a&gt;&lt;br /&gt;
+editor de notes compartides &lt;a href=&quot;https://simplenote.com/&quot;&gt;https://simplenote.com/&lt;/a&gt; android, ios, linux,…&lt;/p&gt;
+
+&lt;h2 id=&quot;on-usar-lo-blogs-llibres-&quot;&gt;On usar-lo? (blogs, llibres, …)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://stackexchange.com/&quot;&gt;http://stackexchange.com/&lt;/a&gt;  preguntes&lt;br /&gt;
+&lt;a href=&quot;https://pages.github.com/&quot;&gt;https://pages.github.com/&lt;/a&gt;  pàgines&lt;br /&gt;
+&lt;a href=&quot;http://octopress.org/&quot;&gt;http://octopress.org/&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;http://jekyllrb.com/ &lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.gitbook.com/editor/linux&quot;&gt;https://www.gitbook.com/editor/linux&lt;/a&gt; llibres&lt;/p&gt;
+
+&lt;h3 id=&quot;llocs&quot;&gt;llocs:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.support.wordpress.com/markdown/&quot;&gt;https://en.support.wordpress.com/markdown/&lt;/a&gt;&lt;br /&gt;
+exportar a html i podem afegir a qualsevol blogger&lt;/p&gt;
+
+&lt;h2 id=&quot;altres-coses&quot;&gt;altres coses&lt;/h2&gt;
+&lt;p&gt;al drive podem usar-lo amb &lt;strong&gt;stackedit.io&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;un epub amb tots els documents &lt;a href=&quot;http://pandoc.org/epub.html&quot;&gt;http://pandoc.org/epub.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;més informació a &lt;a href=&quot;http://kirkstrobeck.github.io/whatismarkdown.com/&quot;&gt;http://kirkstrobeck.github.io/whatismarkdown.com/&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 May 2016 09:00:00 +0200</pubDate>
+        <link>http://croniqueslinux.github.io/markdown/2016/05/26/markdownlinkat.html</link>
+        <guid isPermaLink="true">http://croniqueslinux.github.io/markdown/2016/05/26/markdownlinkat.html</guid>
+        
+        <category>markdown</category>
+        
+        <category>text</category>
+        
+        
+        <category>markdown</category>
+        
+      </item>
     
       <item>
         <title>GIT dóna Error en user.mail</title>
