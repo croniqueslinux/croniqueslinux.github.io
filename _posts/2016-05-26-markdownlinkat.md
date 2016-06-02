@@ -9,7 +9,7 @@ tags: markdown text
 <meta charset="utf-8" /> 
 ![](https://cdn0.iconfinder.com/data/icons/octicons/1024/markdown-128.png  "md")
 
-El passat dissabte *28 de maig de 2016* a l'**Institut Eugeni d'Ors** de l'Hospitalet de Llobregat va tenir lloc __la XIa Jornada (**PaperLess**)__. Vaig aprofitar per fer una breu introducció a **Markdown**. Deixo aquí els enllaços i algunes notes del que vaig comentar.
+El passat dissabte *28 de maig de 2016* a l'**Institut Eugeni d'Ors** de l'Hospitalet de Llobregat va tenir lloc __la XIa Jornada (PaperLess)__. Vaig aprofitar per fer una breu introducció a **Markdown**. Deixo aquí els enllaços i algunes notes del que vaig comentar.
 
 **MarkDown** **[M↓]** és un llenguatge de marques lleuger (creat per  *John Gruber i Aaron Swartz*). Busca aconseguir llegibilitat escrivint en text pla.
 
